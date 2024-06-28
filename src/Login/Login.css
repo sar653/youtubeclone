@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+h2 {
+  font-size: x-large;
+  font-weight: 500;
+}
+h2 {
+  /* word-spacing: 1px; */
+  letter-spacing: 1px;
+  padding-bottom:5px;
+  padding-left:25px
+}
+.main-div {
+  background-color: #f0f2f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#logo {
+  color: #0866ff;
+  font-size: 56px;
+  padding: 12px 0px;
+
+  font-weight: 500;
+  font-style: normal;
+}
+
+.signup-form {
+  background-color: #ffffff;
+  width: 480px;
+  border-radius:5px
+}
+.signup-heading {
+  text-align: center;
+  padding:10px;
+  border-bottom:1px;
+  border-bottom:1px solid #ccc
+}
+.input-fields{
+  padding:15px;
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap
+}
+input,select{
+  padding:8px;
+  border:1px solid #ccc;
+  border-radius:5px;
+  width:100%;
+ margin-bottom:10px
+  
+
+
+}
+.half-width{
+  display:flex;
+  width:48%
+}
+
+.full-width{
+  display:flex;
+  width:100%;
+  position:relative
+
+}
+label{
+  font-size:12px;
+  color:#356871;
+  padding-bottom:10px
+}
+
+.date{
+  display:flex;
+  width:100%;
+  justify-content:space-between
+}
+.quart{
+
+  width:31%;
+  display:flex
+}
+.radio{
+  padding:8px;
+  border:1px solid #ccc;
+  border-radius:5px;
+  width:100%;
+ margin-bottom:10px;
+ display:flex;
+ align-items:center;
+ justify-content:space-between;
+ 
+  
+
+
+}
+.radio-input{
+  margin:0;
+  width:auto;
+
+}
+.radio-label{
+  padding-bottom:0px;
+  font-size:15px
+}
+small{
+  
+  display: block;
+  padding: 7px;
+  font-size: 12px;
+  color: #6c757d;
+  word-wrap: break-word;
+  text-align: justify;
+}
+.button-container,.account{
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+ 
+  width:100%;
+  /* padding:10px; */
+  padding-bottom:20px;
+}
+button{
+  background-color:   #1bbe1b;
+  width:200px;
+  height:40px;
+  border-radius:10px;
+  color:white;
+  font-size:18px;
+  font-weight:500
+}
+.pronoun{
+
+  width:100%;
+  color: #6c757d;
+}
+
+
+
+
+
+.pronoun-visible{
+
+  padding-left:2px
+}
+.pronoun-select{
+  width:100%;
+  padding-left:4px;
+}
+
+.button-container{
+ padding-top:10px;
+}
+
+/* Login.css */
+
+.pronoun-select option:first-child {
+  color: gray;
+   /* background-color:#ccc;  */
+  /* pointer-events: none; */
+}
+ 
+.error{
+  background-color:brown;
+  color:white;
+  position:absolute;
+  top:0%;
+ right:102%;
+  width:250px;
+  height:50px;
+  /* text-align:center; */
+  display:flex;
+  align-items:center;
+  padding-left:20px
+  
+
+}
+.error::after{
+ 
+  content: attr(data-tooltip);
+
+  position: absolute;
+  bottom: 2%;
+  left: 100%;
+  transform: translateY(-50%);
+  border-width: 12px;
+  border-style: solid;
+  border-color:  transparent transparent transparent #932908e6;
+  
+
+}
+
+
+
+ /* .pronoun-select option:not(:first-child):hover {
+  background-color: blue;
+  color: white;
+} 
+ .pronoun-select:focus-with-in:not(:focus){ */
+    /* back-ground-color:green
+} */ 
+  /* .pronoun-select option:first-child:hover {
+  background-color: white; /* Change background color on hover */
+   /* color: black; */
+  /* }     */

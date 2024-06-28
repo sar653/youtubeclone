@@ -1,0 +1,127 @@
+.hamburger-container-other {
+  /* position: fixed; */
+  /* margin: 0; */
+  /* background-color: rgba(127, 127, 127, 0.1); */
+  /* transition: background-color 0.7s ease; */
+  width: 100vw;
+  height: 100vh;
+  /* z-index:1000; */
+  /* background-color:yellow */
+  /* transition:opacity 0.5s ease, visibility 0.5s ease */
+}
+.start{
+width:90px;
+height:100vh;
+background:white
+
+
+}
+
+
+.hamburger-container-other.open{
+position:fixed
+
+
+
+}
+.second-list{
+
+position:fixed;
+width:100px;
+height:100%;
+background:white;
+left:-10px;
+top:47px;
+
+
+}
+
+.hamburger-container-home {
+  width: 200px;
+  height: 100vh;
+  display: none;
+  /* overflow: auto; */
+  /* position: fixed; */
+
+  /* top:0 */
+}
+.hamburg {
+  width: 200px;
+  display:none
+}
+.hamburg.open{
+display:block
+
+}
+
+.hamburger-box-can {
+  /* width: 100%; */
+  background-color: white;
+   
+  height: 100vh;
+  display: none;
+  position:fixed;
+  top:50px
+}
+.hamburger-box-can:hover{
+  overflow-y:auto;  
+
+
+}
+.hamburger-box-can.open {
+  /* transform: translateX(0%); */
+  /* position:absolute; */
+  /* top: 0px; */
+  /* width: 100%; */
+  display: block;
+}
+.hamburger-container-home.open {
+  /* position:relative; */
+  /* width:250px; */
+  /* overflow:auto; */
+  display: block;
+}
+
+.hamburger-box {
+  width: 250px;
+  background-color: white;
+  /* overflow-y:auto;  */
+  height: 100vh;
+  position: absolute;
+  top: -60px;
+  left: 0;
+  /* box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); */
+  /* transform: translateX(-100%); */
+  left:-250px;
+  /* transition: transform 0.5s ease; */
+  transition: left 0.5s ease;
+}
+
+.second-lis{
+width:80px
+
+}
+.content {
+  position: sticky;
+  top: 0px;
+  background-color:white;
+  z-index: 1000000000000;
+}
+
+/* .hamburger-container.open .hamb {
+   transform: translateX(0px);
+ } */
+
+.hamburger-box.open {
+  /* transform: translateX(0%); */
+  left:0
+}
+.hamburger-box.open:hover {
+  overflow-y: auto;
+}
+
+.hamburger-container.open {
+  /* transform: translateX(0%); */
+  /* background-color: gray; */
+  opacity: 2;
+}
