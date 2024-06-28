@@ -8,7 +8,7 @@ import WatchPage from "./Components/WatchPage";
 import SearchResult from "./Components/SearchResult";
 import Layout from "./Components/Layout";
 import Body from "./Components/Body";
-import Demo from "./Components/Demo";
+import Demo from "./Dummy/Demo";
 import SignUp from "./Login/Signup";
 import Login from "./Login/Login";
 import LocationApp from "./Geolocation/LocationApp";

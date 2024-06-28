@@ -106,12 +106,7 @@ const Head = () => {
             onFocus={() => setShowSuggestion(true)}
             onBlur={handleBlur}
           ></input></div>
-          {/* <button
-            className="h-8  w-8 rounded-r-lg bg-gray-200"
-            onClick={clickHandler}
-          >
-            Q
-          </button> */}
+       
           <div>
           <div className="relative  image-head w-5">
 <img  className="w-5 absolute image bg-gray-200"  onClick={clickHandler} src="https://cdn-icons-png.freepik.com/256/54/54481.png?ga=GA1.1.1135962845.1719385372&semt=ais_hybrid"></img> </div>
